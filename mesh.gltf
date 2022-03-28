@@ -1,0 +1,128 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "AtStudio/1.4.0.12/Rhino/7.16/win"
+  },
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAXLQBAbMBAQAtb9u21UdVVVWVaktVVVWpVktVVZVqVUtVValWVUtVlWpVVUtVqVZVVUuVKlAKAQEQ/wL2XgL/AAAAAAABAAkDAQACAQEJAwEBAwEBAQAPI2UBA6kH3SRlEbQU9t3HnXaWGKvKXDcCZFXx1KDwr4b+fwBA0J9/yPgufAIAx4XhfAWhpQBAvPMNANjpDYeMBbxnyGxc94RM5spOyJyudYbM0OFwyFwAfYaMxo3ufP1GgE1UJiIjADANBSIAmEOjAgBYSPAAUCJoDQAUJ2sA4NmXAgDyHq4AIKkBDwAmkp4TtTYLszoZKDIAwEPkcwAYLE4KAIzGIAFgNaUGANNVFgCAWS4jAEANAyIAoEO5EgCcjJuvrpg6eM+yAQAARh9+AeBA8CgAYAJICQAA8B6AgLEAAERsyAAAEHHPAYCwNikAWEHRe09o7RaAbIoMALQynwMAalBJAGA0lAsAfsUjAOBiKQMACQAAIPrvCwAIckcBwJBZQADqC2b5pAmHAeAOGSsAYClmDgDmqxsAYLqTCwCgyxwGADxEDgCouucAUBpTEgD0JN7J57WmyDpCwCoBwNsgiQAABjEkAEALAwUAkJYTDQDG3SoBANwIiQDgBY0KAGDhmAMA29DkrAsnhYoMuig8ALiHwgKAmUoLAKD7ngGAbS81ACjdwgNAeywsAJTpswDAuX8jADAad4pM5BgqABAVAAAAAP8/AAABp+DBRlVwwk9BwsFGVfBCDgYDAQEEfyELWQhxCi0EyQL/1xkCGQKRBWURROj+nWpAJ+LBmHfIOGU9gwqG1k+cYcdBiJdfr2S+3FnGWxfqJuvQyCxZ0aBVyRi43buazRy4tY/RPKoKEQqcVpR7s/CBfwAAAD8AAAD/AidHBw==",
+      "byteLength": 682
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 682
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Default",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5125,
+      "count": 540,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 92,
+      "type": "VEC3",
+      "min": [
+        -28.0815449,
+        -60.0832748,
+        -24.281889
+      ],
+      "max": [
+        92.08154,
+        60.0832748,
+        90.28189
+      ]
+    },
+    {
+      "componentType": 5126,
+      "count": 92,
+      "type": "VEC3"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "-",
+      "children": [
+        1
+      ]
+    },
+    {
+      "mesh": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "石膏 (7)",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "glossinessFactor": 0.0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "indices": 0,
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
