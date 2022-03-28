@@ -1,0 +1,112 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "AtStudio/1.4.0.12/Rhino/7.16/win"
+  },
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAygGIAQGIARUAM9/35W2z5X2WPe+fZP3z5f/Sb3vfpH2TJt33/cv3fd+/Lt/3fd/3fd/3fd/3fd/3fd+/fP8CR0L/AjFIAv8AAAAAAAEACQMBAAIBAQkDAQEDAQEBAA8D1Qn0pAekUAMtA/QtA0EOdQqhE0WySzZSAccIIvE1nkeSjHrgrxjtyZQCEcFZG0yhTDZOjoLQuyUnelNfwu2fsBn7hZk7nJqYasq1iBy0lRmjJ0Rh7xsGTIEggGaauzMIAARjfQAFhtsAAJa6dgBARQYHUMAHhAYAAFqkXg8AxEpjPQAAGcTRAEBbsOMAEAKuCwDwCeMAoHSOGQDg555mAEBiWZUCALYrDwAAa9IAAEzmDgHAg84JAHAJAAYAnUk6AAA6QroOACR5XwcAUeagBgA0DL8JAHCAAAAUWIYAEJQXAAAomRsAQITkCwCARVIAAMBGAUoGmWkBIB0AoI7nAQBwUgAQyicFgIBkQwBQRscJAOKMQBkCAHNMAgAgYtQJALJVAwCgTl0CoKE7AACruUMA8ACBAgCG35wFAJjOgxwADMQAAE50XQCATxgHAKVzRQGAV8AFAICkOdYDAHhIdgCARWIAAGykDwinGQCQWFqkAEAttCAAIIwWAADHOEgHAEBHSAEAABsFKAcAAPT4BaCZciQYAAAbCe0AgIoMDjTTAkA4AANAEABgircAmqnS5AIAQNIsAgBAi2MAmelDAskeAAjelnrN9BJg6gEATABSPQDwGBQAmimKYAAAJ0LIAaBAdhzNNATgcQAQAZBnAKDDThfN9IJBXQDAYEArAPCx1QDNdGFNAwAAhhUbAABwzgggM4VKJAAAnhJJAABwbAMAACBZ3wDN9AKAAzDgAQBgTRpAM51MZgAAKBPfBAC4yUpopiPAKgFAAuQSAA51ADTTdKIBAFAnOicAwCWQk2YqAzxOABADkDkBAHxRADTTECMBABAxBkMAQLnQCzVTLCAvBACuACSGAICUAQFopqnGAwCgajROACBn/CbNFAfomwDgBmBtAoBzFAFoprCIBADAK2INASAZ/RDNVAPoQwDIAJQhAATlBaCZoiQYAAAniecAgJNEDzRTAOA8AACIDgBIxwpAM1VHLAAA0hF7AQDjKBlopgVAZAAG0BcAUIITgGbKglAAAKwgpAMAWrA30EwFAN8AAsA/AIA7/ANopnYYEAAAdRixAQDsYflAMzUA4gMogO0AgGasADRTZMQCAOAYwSAAEIz1gWZaANgHYAAkAgDU0RVAMyWSWAAAGJItAADwUQEgM70REB0AwCAFEDRTBOA/gAMAAAAAAP8/AABA3pzAAAAAAFDHVcI4JFZCDgYDAQECAoE2gQkhYIEKWbSx+5T43NxQ9fnDA25XOglVPQoChgLAXPNHhWyHfwAAAD8AAAD/At5TBw==",
+      "byteLength": 1078
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1078
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Default",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5125,
+      "count": 408,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 202,
+      "type": "VEC3",
+      "min": [
+        -4.90213,
+        0.0,
+        -53.44464
+      ],
+      "max": [
+        32.612793,
+        17.4,
+        0.09072876
+      ]
+    },
+    {
+      "componentType": 5126,
+      "count": 202,
+      "type": "VEC3"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "-",
+      "children": [
+        1
+      ]
+    },
+    {
+      "mesh": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "Rhino Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.5
+      },
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "407810159",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "indices": 0,
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
